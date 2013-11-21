@@ -39,6 +39,12 @@
           "args": "--debug-info"
         },
         {
+          "type": "checkbox",
+          "id": "line-numbers",
+          "label": "Emit line numbers",
+          "args": "--line-numbers"
+        },
+        {
           "id": "output-style",
           "type": "select",
           "label": "Output style:",
@@ -118,6 +124,12 @@
           "Type": "checkbox",
           "Title": "Emit debug info for FireSass",
           "OnArgument": "--debug-info"
+        },
+        {
+          "Id": "line-numbers",
+          "Type": "checkbox",
+          "Title": "Emit line numbers",
+          "OnArgument": "--line-numbers"
         },
         {
           "Id": "output-style",
